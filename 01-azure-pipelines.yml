@@ -17,7 +17,7 @@ jobs:
   - script: echo Hello, world changed !
     displayName: 'Run a one-line script'
 
-job:
+- job:
 - job: job2
   steps:
   - script: |
